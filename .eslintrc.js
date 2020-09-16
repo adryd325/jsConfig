@@ -7,8 +7,6 @@ module.exports = {
     extends: ['prettier', 'airbnb-base', 'plugin:prettier/recommended'],
     plugins: ['prettier'],
     ignorePatterns: [
-        '**/bundle-devel/*.js',
-        '/heckheating/*',
         '/node_modules/*',
     ],
     // add your custom rules here
